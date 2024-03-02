@@ -1,9 +1,6 @@
 name: Build and Deploy to Cloud Run
 
-on:
-  push:
-    branches:
-      - $default-branch
+on: [push]:
 
 env:
   PROJECT_ID: streamlit-f1 
